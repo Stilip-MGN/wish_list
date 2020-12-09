@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishList/resources/views/wish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/routes/web.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/wishList/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/wishList/vendor/composer" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/wishList/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/wishList/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/wishList/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/wishList/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/wishList/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/wishList/vendor/beyondcode/laravel-dump-server" />
+      <path value="$PROJECT_DIR$/wishList/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/wishList/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/wishList/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/wishList/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/wishList/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/wishList/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/wishList/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/wishList/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/wishList/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/wishList/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/wishList/vendor/opis/closure" />
+      <path value="$PROJECT_DIR$/wishList/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/wishList/vendor/dragonmantank/cron-expression" />
+      <path value="$PROJECT_DIR$/wishList/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/wishList/vendor/nunomaduro/collision" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/wishList/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/wishList/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/wishList/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/wishList/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/wishList/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/wishList/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/wishList/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/wishList/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/wishList/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/wishList/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/wishList/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/wishList/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/wishList/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/wishList/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpoption/phpoption" />
+      <path value="$PROJECT_DIR$/wishList/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/wishList/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/wishList/vendor/sebastian/environment" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1lQE922PSKorS5JLe3Onw273lK1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laba4" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="" />
+      <created>1607520759364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607520759364</updated>
+      <workItem from="1607520760736" duration="10064000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="479" y="458" key="FileChooserDialogImpl" timestamp="1607534206529">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="479" y="458" key="FileChooserDialogImpl/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607534206529" />
+    <state x="1059" y="596" key="NewPhpFileDialog" timestamp="1607536357570">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607522549059" />
+    <state x="1059" y="596" key="NewPhpFileDialog/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607536357570" />
+    <state x="304" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1607534769574">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="304" y="320" width="672" height="678" key="search.everywhere.popup/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607534769574" />
+  </component>
+</project>
