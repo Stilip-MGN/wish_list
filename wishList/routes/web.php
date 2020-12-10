@@ -18,3 +18,11 @@ Route::get('/', function () {
 Route::get('/wish', function () {
     return view('wish');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

@@ -1,0 +1,45 @@
+li{
+    font-size: 60px;
+    padding: 40px;
+    width: 100%;
+    display: inline;
+}
+.author_name{
+    font-size: 20px;
+}
+.year{
+    font-size: 40px;
+}
+footer{
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    color: azure;
+    background-color: pink;
+}
+.sign_and_reg{
+    display: inline;
+    text-decoration: none;
+}
+.sign_reg{
+    padding: 25px;
+    background-color: #e9605c;
+    text-align: end;
+}
+.wish_text{
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-color: orange;
+}
+menu{
+
+    margin: 0;
+    background-color: yellow;
+}
+.menu_args{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}

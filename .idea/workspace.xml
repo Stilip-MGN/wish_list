@@ -20,20 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wishList/resources/views/wish.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/welcome.blade.php" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishList/resources/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishList/resources/views/home2.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/webpack.mix.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/wishList/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -135,8 +145,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laba4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\ForPHP\OpenServer\domains\wishList\wishList\resources\css" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -146,7 +163,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1607520759364</updated>
-      <workItem from="1607520760736" duration="10064000" />
+      <workItem from="1607520760736" duration="10861000" />
+      <workItem from="1607589624187" duration="2578000" />
+      <workItem from="1607592262827" duration="6854000" />
     </task>
     <servers />
   </component>
@@ -163,17 +182,18 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="479" y="458" key="FileChooserDialogImpl" timestamp="1607534206529">
+    <state x="479" y="458" key="FileChooserDialogImpl" timestamp="1607590818832">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="479" y="458" key="FileChooserDialogImpl/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607534206529" />
-    <state x="1059" y="596" key="NewPhpFileDialog" timestamp="1607536357570">
+    <state x="479" y="458" key="FileChooserDialogImpl/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607590818832" />
+    <state x="1059" y="596" key="NewPhpFileDialog" timestamp="1607599418379">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607522549059" />
-    <state x="1059" y="596" key="NewPhpFileDialog/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607536357570" />
+    <state x="1059" y="596" key="NewPhpFileDialog/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607599418379" />
     <state x="304" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1607534769574">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
