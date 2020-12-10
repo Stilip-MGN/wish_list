@@ -19,10 +19,12 @@ Route::get('/wish', function () {
     return view('wish');
 });
 
-Auth::routes();
+Route::get('/sign', function () {
+    return view('sign');
+});
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/registration', function () {
+    return view('registration');
+});
 
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');

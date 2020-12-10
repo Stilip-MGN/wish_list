@@ -3,8 +3,8 @@
 <head>
     <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <div class="sign_reg">
-            <a class="sign_and_reg" href="#">Вход</a>
-            <a class="sign_and_reg" href="#">Регистрация</a>
+            <a class="sign_and_reg" href="/sign">Вход</a>
+            <a class="sign_and_reg" href="/registration">Регистрация</a>
         </div>
         <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
     </header>
@@ -15,10 +15,12 @@
 <div class="wish_text">
     <h1 >Узнай желания каждого и расскажи про свои</h1>
 </div>
+
+
 <menu>
     <div class="menu_args">
     <li ><a  href="/">Главная</a></li>
-    <li ><a  href="/wish">Желание</a></li>
+    <li ><a  href="/wish">Мои желания</a></li>
     </div>
 </menu>
 @yield('content')

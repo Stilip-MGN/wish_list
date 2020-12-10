@@ -4,6 +4,23 @@
 
 
 @section('content')
-    <h2> первое желание это ты</h2>
-    <h2> второе желание это я</h2>
+    <div class="table_main">
+        <table>
+            <tr>
+                <th>Мои желания</th>
+            </tr>
+            <tr>
+                <td>Большую яхту</td>
+            </tr>
+            <tr>
+                <td>книга</td>
+            </tr>
+            <tr>
+                <td>компуктер</td>
+            </tr>
+            <tr>
+                <td>слона</td>
+            </tr>
+        </table>
+    </div>
 @endsection
