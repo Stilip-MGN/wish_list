@@ -10,6 +10,17 @@
     <div class="login-page">
 
         <div class="form">
+            @if(session("success"))
+                <div class="success">
+                    {{ session('success') }}
+                </div>
+            @endif
+
+                @if(session("fatal"))
+                    <div class="fatal">
+                        {{ session('fatal') }}
+                    </div>
+                @endif
             <form action="{{route("signed")}}" class="login-form" method="post">
                 @csrf
                 <input type="text" name ="user_name"  placeholder="username"/>

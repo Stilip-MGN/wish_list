@@ -188,3 +188,11 @@ li.error{
     text-align: left;
     color: red;
 }
+div.success{
+    color: green;
+    padding: 10px;
+}
+div.fatal{
+    color: red;
+    padding: 10px;
+}

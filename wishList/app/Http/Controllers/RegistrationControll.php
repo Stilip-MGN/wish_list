@@ -23,6 +23,6 @@ class RegistrationControll extends Controller
         $contact->remember_token = $request->input("_token");
         $contact->save();
 
-        return redirect() ->route("home");
+        return redirect() ->route("sign")->with("success","Пользователь зарегистрирован Введите свои данные ещё раз");
     }
 }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\users;
 use Illuminate\Http\Request;
 
 class SignControll extends Controller
@@ -12,6 +13,14 @@ class SignControll extends Controller
             "user_password" => "required"
         ]);
 
+        $name = $request->input("user_name");
+        $password = $request->input("user_password");
 
+        $data_people = users::all();
+        foreach ($data_people as $man){
+            if($man->name == $name and $man->password == $password)
+                return redirect()->route("home")->with("success", "Вы вошли в ваш профиль!");
+        }
+        return redirect()->route("sign")->with("fatal", "Неверное имя или пароль!");
     }
 }

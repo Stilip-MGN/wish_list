@@ -3,8 +3,8 @@
 <head>
     <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <div class="sign_reg">
-            <a class="sign_and_reg" href="{{ route("sign") }}">Вход</a>
-            <a class="sign_and_reg" href="{{ route("registration") }}">Регистрация</a>
+            @yield('header')
+
         </div>
         <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
     </header>
@@ -23,6 +23,7 @@
     <li class="menu_stile"><a  href="{{ route("wish") }}">Мои желания</a></li>
     </div>
 </menu>
+
 @yield('content')
 </body>
 <footer >
