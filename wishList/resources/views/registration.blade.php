@@ -14,6 +14,15 @@
                 <button type="submit">create</button>
                 <p class="message">Уже зарегистрированы? <a href="{{ route("sign") }}">Войди в аккаунт</a></p>
             </form>
+            @if($errors->any())
+                <div >
+                    <ul>
+                        @foreach($errors->all() as $error)
+                            <li class="error">{{ $error }}</li>
+                        @endforeach
+                    </ul>
+                </div>
+            @endif
         </div>
     </div>
 @endsection
