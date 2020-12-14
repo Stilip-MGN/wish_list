@@ -1,17 +1,18 @@
 @extends("layouts.app")
 
-@section('title')Вход@endsection
+@section('title')Регистрация@endsection
 
 
 @section('content')
     <div class="login-page">
         <div class="form">
-            <form class="register-form">
-                <input type="text" placeholder="name"/>
-                <input type="password" placeholder="password"/>
-                <input type="text" placeholder="email address"/>
-                <button>create</button>
-                <p class="message">Уже зарегистрированы? <a href="/sign">Войди в аккаунт</a></p>
+            <form action="{{route("registrated")}}" class="register-form" method="post">
+                @csrf
+                <input type="text" name="name"  placeholder="name"/>
+                <input type="password" name="password"  placeholder="password"/>
+                <input type="text" name="email" placeholder="email address"/>
+                <button type="submit">create</button>
+                <p class="message">Уже зарегистрированы? <a href="{{ route("sign") }}">Войди в аккаунт</a></p>
             </form>
         </div>
     </div>

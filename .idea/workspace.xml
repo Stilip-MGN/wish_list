@@ -20,20 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/wishList/resources/views/registration.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wishList/resources/views/sign.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/public/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/auth/login.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/auth/passwords/email.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/auth/passwords/reset.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/auth/register.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/auth/verify.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/home2.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/layouts/app2.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/registration.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/sign.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/sign.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,7 +162,8 @@
       <updated>1607520759364</updated>
       <workItem from="1607520760736" duration="10861000" />
       <workItem from="1607589624187" duration="2578000" />
-      <workItem from="1607592262827" duration="12149000" />
+      <workItem from="1607592262827" duration="16415000" />
+      <workItem from="1607956418159" duration="1706000" />
     </task>
     <servers />
   </component>
@@ -201,6 +192,14 @@
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607522549059" />
     <state x="1059" y="596" key="NewPhpFileDialog/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607601764408" />
+    <state x="1186" y="101" width="1020" height="1386" key="dock-window-1" timestamp="1607607613771">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1186" y="101" width="1020" height="1386" key="dock-window-1/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607607613771" />
+    <state x="1347" y="0" width="1020" height="1386" key="dock-window-2" timestamp="1607957059819">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1347" y="0" width="1020" height="1386" key="dock-window-2/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607957059819" />
     <state x="304" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1607534769574">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

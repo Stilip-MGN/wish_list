@@ -6,11 +6,12 @@
 @section('content')
     <div class="login-page">
         <div class="form">
-            <form class="login-form">
-                <input type="text" placeholder="username"/>
-                <input type="password" placeholder="password"/>
-                <button>login</button>
-                <p class="message">Не зарегистрированы? <a href="/registration">Создайте аккаунт</a></p>
+            <form action="{{route("signed")}}" class="login-form" method="post">
+                @csrf
+                <input type="text" name ="user_name"  placeholder="username"/>
+                <input type="password" name="user_password"  placeholder="password"/>
+                <button type="submit">login</button>
+                <p class="message">Не зарегистрированы? <a href="{{ route("registration") }}">Создайте аккаунт</a></p>
             </form>
         </div>
     </div>
