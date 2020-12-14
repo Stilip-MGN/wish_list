@@ -11,5 +11,7 @@ class SignControll extends Controller
             "user_name" => "required",
             "user_password" => "required"
         ]);
+
+
     }
 }

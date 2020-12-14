@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/app/Http/Controllers/RegistrationControll.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/app/Http/Controllers/RegistrationControll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/app/Http/Controllers/SignControll.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/app/Http/Controllers/SignControll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,7 @@
       <workItem from="1607520760736" duration="10861000" />
       <workItem from="1607589624187" duration="2578000" />
       <workItem from="1607592262827" duration="16415000" />
-      <workItem from="1607956418159" duration="4623000" />
+      <workItem from="1607956418159" duration="8119000" />
     </task>
     <servers />
   </component>
@@ -180,6 +182,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="368" y="479" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607964872263">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="368" y="479" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607964872263" />
     <state x="479" y="458" key="FileChooserDialogImpl" timestamp="1607590818832">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -189,6 +195,10 @@
     </state>
     <state x="794" y="443" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1607522549059" />
     <state x="1059" y="596" key="NewPhpFileDialog/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607601764408" />
+    <state x="284" y="448" width="540" height="524" key="StructurePopup" timestamp="1607964703269">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="284" y="448" width="540" height="524" key="StructurePopup/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607964703269" />
     <state x="1186" y="101" width="1020" height="1386" key="dock-window-1" timestamp="1607607613771">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
