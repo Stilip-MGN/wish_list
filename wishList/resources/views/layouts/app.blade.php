@@ -19,8 +19,8 @@
 
 <menu>
     <div class="menu_args">
-    <li ><a  href="{{ route("home") }}">Главная</a></li>
-    <li ><a  href="{{ route("wish") }}">Мои желания</a></li>
+    <li class="menu_stile" ><a  href="{{ route("home") }}">Главная</a></li>
+    <li class="menu_stile"><a  href="{{ route("wish") }}">Мои желания</a></li>
     </div>
 </menu>
 @yield('content')

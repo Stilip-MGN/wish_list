@@ -1,4 +1,4 @@
-li{
+li.menu_stile{
     font-size: 60px;
     padding: 40px;
     width: 100%;
@@ -182,4 +182,9 @@ table td:first-child {
 }
 table td:last-child {
     border-bottom-right-radius: 13px;
+}
+
+li.error{
+    text-align: left;
+    color: red;
 }
