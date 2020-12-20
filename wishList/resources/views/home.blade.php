@@ -22,7 +22,20 @@
                 <th>Пользователь</th>
                 <th>Желание</th>
             </tr>
-            
+            <?php
+            $users_wishes = DB::table('users')
+                ->Join('wishes', 'users.id', '=', 'wishes.user_id')
+                ->select('users.name', 'wishes.wish_text')
+                ->get();
+            foreach ($users_wishes as $user_wish){
+            ?>
+            <tr>
+                <td> <?php echo $user_wish->name?> </td>
+                <td> <?php echo $user_wish->wish_text ?> </td>
+            </tr>
+            <?php
+            }
+            ?>
         </table>
     </div>
 @endsection
