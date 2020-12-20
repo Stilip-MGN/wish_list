@@ -4,6 +4,9 @@ li.menu_stile{
     width: 100%;
     display: inline;
 }
+.text_menu_stile{
+    color: black;
+}
 .author_name{
     font-size: 20px;
 }
@@ -21,6 +24,7 @@ footer{
 .sign_and_reg{
     display: inline;
     text-decoration: none;
+    color: azure;
 }
 .sign_reg{
     padding: 25px;

@@ -21,13 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/app/Http/Controllers/RegistrationControll.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/app/Http/Controllers/RegistrationControll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/app/Http/Controllers/SignControll.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/app/Http/Controllers/SignControll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/public/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wishList/resources/views/sign.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/sign.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/wish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +165,10 @@
       <workItem from="1607520760736" duration="10861000" />
       <workItem from="1607589624187" duration="2578000" />
       <workItem from="1607592262827" duration="16415000" />
-      <workItem from="1607956418159" duration="13077000" />
+      <workItem from="1607956418159" duration="13847000" />
+      <workItem from="1608054370486" duration="6321000" />
+      <workItem from="1608456039140" duration="6461000" />
+      <workItem from="1608463960547" duration="1289000" />
     </task>
     <servers />
   </component>
@@ -211,6 +213,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1347" y="0" width="1020" height="1386" key="dock-window-2/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1607957059819" />
+    <state x="473" y="332" key="run.anything.popup" timestamp="1608054773651">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="473" y="332" key="run.anything.popup/367.1440.1920.1040/0.0.2560.1400@0.0.2560.1400" timestamp="1608054773651" />
     <state x="304" y="320" width="672" height="678" key="search.everywhere.popup" timestamp="1607534769574">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

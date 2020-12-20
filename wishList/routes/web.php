@@ -30,3 +30,5 @@ Route::get('/registration', function () {
 Route::post('registrated/user', "RegistrationControll@submit")->name("registrated");
 
 Route::post('signed', "SignControll@submit")->name("signed");
+
+Route::post('/new_wish',  "WishControll@submit")->name("add_wish");

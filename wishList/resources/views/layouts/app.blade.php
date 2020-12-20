@@ -4,7 +4,6 @@
     <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
         <div class="sign_reg">
             @yield('header')
-
         </div>
         <link rel="stylesheet" href="{{ URL::asset('css/styles.css') }}">
     </header>
@@ -19,8 +18,8 @@
 
 <menu>
     <div class="menu_args">
-    <li class="menu_stile" ><a  href="{{ route("home") }}">Главная</a></li>
-    <li class="menu_stile"><a  href="{{ route("wish") }}">Мои желания</a></li>
+    <li class="menu_stile"><a class="text_menu_stile" href="{{ route("home") }}">Главная</a></li>
+    <li class="menu_stile"><a class="text_menu_stile" href="{{ route("wish") }}">Мои желания</a></li>
     </div>
 </menu>
 
