@@ -16,19 +16,25 @@
         <table>
             <tr>
                 <th>Мои желания</th>
+                <th></th>
+                <th></th>
             </tr>
+            <?php
+            $users_wishes = DB::table('users')
+                ->where('users.id', 1)
+                ->Join('wishes', 'users.id', '=', 'wishes.user_id')
+                ->select('wishes.wish_text')
+                ->get();
+            foreach ($users_wishes as $user_wish){
+            ?>
             <tr>
-                <td>Большую яхту</td>
+                <td> <?php echo $user_wish->wish_text ?> </td>
+                <td><button>Редактировать</button></td>
+                <td><button>Удалить</button></td>
             </tr>
-            <tr>
-                <td>книга</td>
-            </tr>
-            <tr>
-                <td>компуктер</td>
-            </tr>
-            <tr>
-                <td>слона</td>
-            </tr>
+            <?php
+            }
+            ?>
         </table>
     </div>
 @endsection
