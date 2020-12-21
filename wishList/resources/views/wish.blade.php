@@ -21,16 +21,24 @@
             </tr>
             <?php
             $users_wishes = DB::table('users')
-                ->where('users.id', 1)
+                ->where('users.id', Auth::user()->id)
                 ->Join('wishes', 'users.id', '=', 'wishes.user_id')
-                ->select('wishes.wish_text')
+                ->select('wishes.wish_text','wishes.id')
                 ->get();
+            if (count($users_wishes) == 0){?>
+            <tr>
+                <td class="name"> <?php echo "У меня пока нет желаний" ?> </td>
+                <td></td>
+                <td></td>
+            </tr>
+            <?php
+            }
             foreach ($users_wishes as $user_wish){
             ?>
             <tr>
-                <td> <?php echo $user_wish->wish_text ?> </td>
-                <td><button>Редактировать</button></td>
-                <td><button>Удалить</button></td>
+                <td class="name"> <?php echo $user_wish->wish_text ?> </td>
+                <td><a href="{{route("redaction", $user_wish->id)}}"><button  type="submit">Редактировать</button></a></td>
+                <td><a href="{{route("delete", $user_wish->id)}}"><button >Удалить</button></a></td>
             </tr>
             <?php
             }

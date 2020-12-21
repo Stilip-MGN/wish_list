@@ -8,18 +8,38 @@ use App\Wish;
 
 class WishControll extends Controller
 {
-    public function submit(Request $request )
+    public function submit(Request $request)
     {
-
         $validation = $request->validate([
             "wish" => "required"
         ]);
 
-        $contact = new Wish();
-        $contact->wish_text = $request->input("wish");
-        $contact->user_id = 1;
-        $contact->save();
+        $wish = new Wish();
+        $wish->wish_text = $request->input("wish");
+        $wish->user_id = \Auth::user()->id;
+        $wish->save();
 
-        return redirect()->route("home");
+        return redirect()->route("wish");
+    }
+
+    public function redactionWish($id){
+        $wish = new Wish();
+        return view('redaction-wish',['data' => $wish->find($id)]);
+
+    }
+
+    public function redactionWishUpdate( $id, Request $request){
+
+        \DB::table('wishes')
+            ->where('id', $id)
+            ->update(['wish_text' => $request->input("wish")]);
+        $wish = new Wish();
+
+        return redirect()->route("wish");
+    }
+
+    public function deleteWish($id){
+        \DB::table('wishes')->where('id', $id)->delete();
+        return redirect()->route("wish");
     }
 }

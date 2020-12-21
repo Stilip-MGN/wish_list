@@ -20,8 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13aa9b07-465c-4f99-9f37-aecac1334446" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/wishList/resources/views/redaction-wish.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/app/Http/Controllers/SignControll.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/app/Http/Controllers/SignControll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/app/Http/Controllers/WishControll.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/app/Http/Controllers/WishControll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/database/migrations/2020_12_20_093101_create_wishes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/database/migrations/2020_12_20_093101_create_wishes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/public/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/public/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/resources/views/registration.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/registration.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wishList/resources/views/wish.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/resources/views/wish.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wishList/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/wishList/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,12 +149,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../laba4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wishList/resources/views" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ForPHP\OpenServer\domains\wishList\wishList\resources\views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ForPHP\OpenServer\domains\wishList\wishList\resources\css" />
     </key>
@@ -163,7 +176,8 @@
       <workItem from="1607956418159" duration="13847000" />
       <workItem from="1608054370486" duration="6321000" />
       <workItem from="1608456039140" duration="6461000" />
-      <workItem from="1608463960547" duration="5222000" />
+      <workItem from="1608463960547" duration="5368000" />
+      <workItem from="1608566025630" duration="16052000" />
     </task>
     <servers />
   </component>

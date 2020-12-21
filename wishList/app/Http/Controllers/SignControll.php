@@ -22,9 +22,15 @@ class SignControll extends Controller
         $data_people = users::all();
         foreach ($data_people as $man){
             if($man->name == $name and $man->password == $password){
+                Auth::loginUsingId($man->id);
                 return redirect()->route("home")->with("success", "Вы вошли в ваш профиль!");
             }
         }
         return redirect()->route("sign")->with("fatal", "Неверное имя или пароль!");
+    }
+
+    public function LogoutUser(){
+        Auth::logout();
+        return redirect()->route("home");
     }
 }

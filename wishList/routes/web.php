@@ -32,3 +32,10 @@ Route::post('registrated/user', "RegistrationControll@submit")->name("registrate
 Route::post('signed', "SignControll@submit")->name("signed");
 
 Route::post('/new_wish',  "WishControll@submit")->name("add_wish");
+
+Route::get('/login/logout', "SignControll@LogoutUser")->name("logout_form");
+
+Route::get('/wish/redaction/{id}', "WishControll@redactionWish")->name("redaction");
+Route::post('/wish/redaction/{id}', "WishControll@redactionWishUpdate")->name("update");
+
+Route::get('/wish/delete/{id}', "WishControll@deleteWish")->name("delete");

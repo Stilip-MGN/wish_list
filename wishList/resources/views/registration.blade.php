@@ -5,7 +5,7 @@
 
 @section('content')
     <div class="login-page">
-        <div class="form">
+        <div class="form" >
             <form action="{{route("registrated")}}" class="register-form" method="post">
                 @csrf
                 <input type="text" name="name"  placeholder="name"/>
